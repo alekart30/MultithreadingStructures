@@ -7,9 +7,9 @@
 #include "set_os.hpp"
 
 
-Set<int>* p_set1 = NULL;
-Set<int>* p_set2 = NULL;
-Set<int>* working_set = NULL;
+Set<int>* p_set1 = nullptr;
+Set<int>* p_set2 = nullptr;
+Set<int>* working_set = nullptr;
 
 size_t writers = 10;
 size_t readers = 10;
